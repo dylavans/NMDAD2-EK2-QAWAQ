@@ -1,0 +1,176 @@
+<div class="view-container" layout="column" layout-fill ng-cloak>
+        <md-content class="header">
+    <md-toolbar class="md-hue-2">
+      <div class="md-toolbar-tools">
+          <md-menu md-offset="0 -7">
+          <md-button aria-label="Open demo menu" class="md-icon-button" ng-click="$mdOpenMenu($event)">
+            <md-icon md-svg-icon="img/svg/toolbar.svg"></md-icon>
+          </md-button>
+          <md-menu-content width="6">
+              <md-menu-item>
+                  <md-button class="md-primary" href="/#/products"><span md-menu-align-target>Products</span>
+                  </md-button>
+              </md-menu-item>
+              <md-menu-item>
+                  <md-button class="md-primary" href="/#/about"><span md-menu-align-target>About</span>
+                  </md-button>
+              </md-menu-item>
+          </md-menu-content>
+        </md-menu>
+        <md-button class="md-icon-button" aria-label="Settings" ng-disabled="true">
+
+        </md-button>
+        <div>
+            <a href="/#/home">
+                <img src="img/png/logoqawaq.png" alt="logo qawaq" class="logoqawaq" />
+            </a>
+        </div>
+        <span flex></span>
+        <md-menu md-position-mode="target-right target" >
+        <md-button class="md-icon-button" aria-label="More">
+          <md-icon md-svg-icon="img/svg/settings.svg" ng-click="$mdOpenMenu($event)"></md-icon>
+        </md-button>
+        <md-menu-content width="4" >
+            <md-menu-item class="not_logged_in">
+              <md-button type="submit" href="/#/home" ng-click="login()">
+                  <div layout="row" flex>
+                        <md-icon md-menu-align-target md-svg-icon="img/svg/account.svg" style="margin: auto 3px auto 0;"></md-icon>
+                        <span md-menu-align-target>Log in</span>
+                  </div>
+              </md-button>
+          </md-menu-item>
+          <md-menu-item class="not_logged_in">
+            <md-button href="/#/login" >
+                <div layout="row" flex>
+                    <md-icon md-menu-align-target md-svg-icon="img/svg/account.svg" style="margin: auto 3px auto 0;"></md-icon>
+                    <span md-menu-align-target>Register</span>
+                </div>
+            </md-button>
+        </md-menu-item>
+        <md-menu-item class="logged_in">
+          <md-button href="/#/account">
+              <div layout="row" flex>
+                  <md-icon md-menu-align-target md-svg-icon="img/svg/account.svg" style="margin: auto 3px auto 0;"></md-icon>
+                  <span md-menu-align-target>Account</span>
+              </div>
+          </md-button>
+      </md-menu-item>
+      <md-menu-item class="logged_in">
+        <md-button flex href="/#/home" ng-click="logout()">
+            <div layout="row">
+                <md-icon md-menu-align-target md-svg-icon="img/svg/account.svg" style="margin: auto 3px auto 0;"></md-icon>
+                <span md-menu-align-target>Log out</span>
+                </a>
+            </div>
+        </md-button>
+    </md-menu-item>
+      </md-menu-content>
+        </md-menu>
+      </div>
+    </md-toolbar>
+  <md-toolbar class="not_logged_in">
+  <div class="md-toolbar-tools">Log in</div>
+  <md-toolbar class="md-warn" style="display: none;">
+      <div class="md-toolbar-tools">
+        <h2 class="md-flex" >Error: Vul alle velden in!</h2>
+      </div>
+    </md-toolbar>
+</md-toolbar>
+<md-toolbar class="md-warn" style="display: none;">
+    <div class="md-toolbar-tools">
+      <h2 class="md-flex" >
+          <p class="md-success">
+
+          </p>
+      </h2>
+    </div>
+  </md-toolbar>
+  <md-toolbar class="md-warn logged_in" >
+      <div class="md-toolbar-tools">
+        <h2 class="md-flex" >
+            Je bent ingelogd
+        </h2>
+      </div>
+    </md-toolbar>
+</md-content>
+<md-content flex class="main">
+
+    <!-- start login -->
+    <div id="login" class="blacks">
+<md-content layout-padding>
+  <div class="not_logged_in">
+    <form name="login">
+      <div layout-gt-sm="row" class="buy__form">
+        <md-input-container class="md-block" flex-gt-sm>
+          <label>Username</label>
+          <input type="text" name="login_user_name" placeholder="Username">
+        </md-input-container>
+        <md-input-container class="md-block" flex-gt-sm>
+          <label>Password</label>
+          <input type="password" name="login_password" placeholder="Password">
+        </md-input-container>
+      </div>
+      <md-button class="md-raised" ng-click="login_customer()" type="submit">
+          Log in
+      </md-button>
+    </form>
+  </div>
+</md-content>
+</div>
+<md-toolbar class="not_logged_in">
+    <h2 class="md-toolbar-tools">
+      <span>Register</span>
+    </h2>
+  </md-toolbar>
+<div id="register" class="blacks">
+<md-content layout-padding>
+    <div class="not_logged_in">
+      <form name="register">
+          <div layout-gt-sm="row" class="buy__form">
+            <md-input-container class="md-block" flex-gt-sm>
+              <label>First Name</label>
+              <input type="text" name="register_first_name" placeholder="Your First Name">
+            </md-input-container>
+            <md-input-container class="md-block" flex-gt-sm>
+              <label>Last Name</label>
+              <input type="text" name="register_last_name" placeholder="Your Last Name">
+            </md-input-container>
+          </div>
+        <div layout-gt-sm="row" class="buy__form">
+          <md-input-container class="md-block" flex-gt-sm>
+            <label>Username</label>
+            <input type="text" name="register_user_name" placeholder="Choose a username">
+          </md-input-container>
+          <md-input-container class="md-block" flex-gt-sm>
+            <label>Email</label>
+            <input type="text" name="register_email" placeholder="Your Email">
+          </md-input-container>
+        </div>
+        <div layout-gt-sm="row" class="buy__form">
+          <md-input-container class="md-block" flex-gt-sm>
+            <label>Password</label>
+            <input type="password" name="register_password" placeholder="Choose a password">
+          </md-input-container>
+          <md-input-container class="md-block" flex-gt-sm>
+            <label>Confirm Password</label>
+            <input type="password" name="register_confirm_password" placeholder="Confirm your password">
+          </md-input-container>
+        </div>
+        <md-button class="md-raised" ng-click="register_customer()" type="submit">
+            Register
+        </md-button>
+      </form>
+    </div>
+  </md-content>
+  </div>
+    <!-- end login -->
+
+  <!--do shit -->
+
+</md-content>
+  </md-content class="footer">
+      <p style="text-align: center;">
+          // FOOTER //
+      </p>
+  </md-content>
+</div>

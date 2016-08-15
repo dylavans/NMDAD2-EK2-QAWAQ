@@ -1,0 +1,107 @@
+<div class="view-container" layout="column" layout-fill ng-cloak>
+        <md-content class="header">
+    <md-toolbar class="md-hue-2">
+      <div class="md-toolbar-tools">
+          <md-menu md-offset="0 -7">
+          <md-button aria-label="Open demo menu" class="md-icon-button" ng-click="$mdOpenMenu($event)">
+            <md-icon md-svg-icon="img/svg/toolbar.svg"></md-icon>
+          </md-button>
+          <md-menu-content width="6">
+              <md-menu-item>
+                  <md-button class="md-primary" href="/#/products"><span md-menu-align-target>Products</span>
+                  </md-button>
+              </md-menu-item>
+              <md-menu-item>
+                  <md-button class="md-primary" href="/#/about"><span md-menu-align-target>About</span>
+                  </md-button>
+              </md-menu-item>
+          </md-menu-content>
+        </md-menu>
+        <md-button class="md-icon-button" aria-label="Settings" ng-disabled="true">
+
+        </md-button>
+        <div layout-align="center center">
+            <a href="/#/home">
+                <img src="img/png/logoqawaq.png" alt="logo qawaq" class="logoqawaq" />
+            </a>
+        </div>
+        <span flex></span>
+        <md-menu md-position-mode="target-right target" >
+        <md-button class="md-icon-button" aria-label="More">
+          <md-icon md-svg-icon="img/svg/settings.svg" ng-click="$mdOpenMenu($event)"></md-icon>
+        </md-button>
+        <md-menu-content width="4" >
+            <md-menu-item class="not_logged_in">
+              <md-button ng-click="ctrl.announceClick($index)" href="/#/login" ng-click="login()">
+                  <div layout="row" flex>
+                        <md-icon md-menu-align-target md-svg-icon="img/svg/account.svg" style="margin: auto 3px auto 0;"></md-icon>
+                        <span md-menu-align-target>Log in</span>
+                  </div>
+              </md-button>
+          </md-menu-item>
+          <md-menu-item class="not_logged_in">
+            <md-button ng-click="ctrl.announceClick($index)" href="/#/login">
+                <div layout="row" flex>
+                    <md-icon md-menu-align-target md-svg-icon="img/svg/account.svg" style="margin: auto 3px auto 0;"></md-icon>
+                    <span md-menu-align-target>Register</span>
+                </div>
+            </md-button>
+        </md-menu-item>
+        <md-menu-item class="logged_in">
+          <md-button ng-click="ctrl.announceClick($index)" href="/#/account">
+              <div layout="row" flex>
+                  <md-icon md-menu-align-target md-svg-icon="img/svg/account.svg" style="margin: auto 3px auto 0;"></md-icon>
+                  <span md-menu-align-target>Account</span>
+              </div>
+          </md-button>
+      </md-menu-item>
+      <md-menu-item class="logged_in">
+        <md-button ng-click="ctrl.announceClick($index)">
+            <div layout="row" flex href="/#/logout" ng-click="logout()">
+                <md-icon md-menu-align-target md-svg-icon="img/svg/account.svg" style="margin: auto 3px auto 0;"></md-icon>
+                <span md-menu-align-target>Log out</span>
+                </a>
+            </div>
+        </md-button>
+    </md-menu-item>
+      </md-menu-content>
+        </md-menu>
+      </div>
+    </md-toolbar>
+  <md-toolbar>
+  <div class="md-toolbar-tools">{{vm.$$ui.classname}}</div>
+</md-toolbar>
+</md-content>
+  <md-content flex layout-padding class="main">
+
+      <!-- start products -->
+      <md-card md-theme-watch class="product" ng-repeat="product in products track by $index">
+          <md-card-title>
+            <md-card-title-text>
+              <span class="md-headline">{{ product.title }}</span>
+              <span class="md-subhead">&euro; {{ product.price }}</span>
+            </md-card-title-text>
+          </md-card-title>
+          <md-card-content layout="row" layout-align="space-between">
+            <div class="md-media-xl card-media pictures" style="background-image: url('{{ product.pictures }}')">
+            </div>
+            <md-card-actions layout="column">
+              <md-button class="md-icon-button" aria-label="Add to cart">
+                <md-icon md-svg-icon="img/svg/addtocart.svg"></md-icon>
+              </md-button>
+              <md-button class="md-icon-button" aria-label="More info" href="/#/products/{{ product.id }}">
+                <md-icon md-svg-icon="img/svg/more.svg"></md-icon>
+              </md-button>
+            </md-card-actions>
+          </md-card-content>
+        </md-card>
+      <!-- end products -->
+
+
+  </md-content>
+  </md-content class="footer">
+      <p style="text-align: center;">
+          // FOOTER //
+      </p>
+  </md-content>
+</div>

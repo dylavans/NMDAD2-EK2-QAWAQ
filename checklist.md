@@ -3,8 +3,8 @@ Checklist
 
 | Status   | Aanduiding |
 |:---------|:----------:|
-| Aanwezig |      âœ“     |
-| Afwezig  |      âœ—     |
+| Aanwezig |      v     |
+| Afwezig  |      ?     |
 
 | Academische Poster                   | Aanwezig |
 |:-------------------------------------|:--------:|
@@ -65,71 +65,71 @@ Checklist
 |--------------------------------------|----------|
 | **Werkstuk en technologieÃ«n**        |          |
 |  *Database*                          |          |
-|   Databasemodel (Reverse Engineer)   |     âœ“    |
+|   Databasemodel (Reverse Engineer)   |     v    |
 |  *Server-side*                       |          |
-|   Laravel 5.2                        |     âœ“    |
-|   Artisan Console Commands voor DB   |     âœ“    |
-|   Eloquent ORM                       |     âœ“    |
-|   Migrations                         |     âœ“    |
-|   MVC                                |     âœ“    |
-|   Seeding met Faker                  |     âœ“    |
+|   Laravel 5.2                        |     v    |
+|   Artisan Console Commands voor DB   |     v    |
+|   Eloquent ORM                       |     v    |
+|   Migrations                         |     v    |
+|   MVC                                |     v    |
+|   Seeding met Faker                  |     v    |
 |--------------------------------------|----------|
 |  *API*                               |          |
 |   CRUD                               |          |
-|   - Create                           |     âœ“    |
-|   - Read                             |     âœ“    |
-|   - Update                           |     âœ“    |
-|   - Delete                           |     âœ“    |
+|   - Create                           |     v    |
+|   - Read                             |     v    |
+|   - Update                           |     v    |
+|   - Delete                           |     v    |
 |   PHPUnit-tests succesvol            |     ?    |
-|   RESTful                            |     âœ“    |
+|   RESTful                            |     v    |
 |--------------------------------------|----------|
 |  *Mobile Web App*                    |          |
-|   AngularJS 1.5                      |     âœ“    |
-|   Angular Material Design            |     âœ“    |
+|   AngularJS 1.5                      |     v    |
+|   Angular Material Design            |     v    |
 |   Automatisatie                      |          |
-|   - Bower                            |     âœ“    |
-|   - Gulp.js                          |     âœ“    |
+|   - Bower                            |     v    |
+|   - Gulp.js                          |     v    |
 |   Functionaliteit: Rollen            |          |
-|   - Bezoeker                         |     âœ“    |
-|   - Klant                            |     âœ“    |
+|   - Bezoeker                         |     v    |
+|   - Klant                            |     v    |
 |   Functionaliteit: Account           |          |
-|   - Accountbeheer                    |     âœ“    |
+|   - Accountbeheer                    |     v    |
 |   - Bestellingen opvolgen            |     ?    |
 |   - Historiek gekochte producten     |     ?    |
 |   Functionaliteit: Product           |          |
 |   - Categorie                        |     ?    |
 |   - Foto's                           |     ?    |
 |   - Korte beschrijving               |     ?    |
-|   - Naam                             |     âœ“    |
-|   - Prijs                            |     âœ“    |
+|   - Naam                             |     v    |
+|   - Prijs                            |     v    |
 |   - Prijs: BTW-tarief                |     ?    |
 |   - Prijs: Korting of promotieprijs  |     ?    |
 |   - Productrating                    |     ?    |
-|   - Productspecificaties             |     âœ“    |
-|   Sass (SCSS)                        |     âœ“    |
-|   Spelling gecontroleerd             |     âœ“    |
+|   - Productspecificaties             |     v    |
+|   Sass (SCSS)                        |     v    |
+|   Spelling gecontroleerd             |     v    |
 |--------------------------------------|----------|
 |  *Backoffice*                        |          |
 |   Automatisatie                      |          |
-|   - Bower                            |     âœ“    |
-|   - Composer                         |     âœ“    |
-|   - Laravel Elixir                   |     âœ“    |
-|   Blade-sjablonen                    |     âœ“    |
-|   Bootstrap met Sass (SCSS)          |     âœ“    |
+|   - Bower                            |     v    |
+|   - Composer                         |     v    |
+|   - Laravel Elixir                   |     v    |
+|   Blade-sjablonen                    |     v    |
+|   Bootstrap met Sass (SCSS)          |     v    |
 |   Chartist.js                        |     ?    |
 |   Functionaliteit: Rollen            |          |
-|   - Bezoeker                         |     âœ“    |
-|   - Beheerder                        |     âœ“    |
+|   - Bezoeker                         |     v    |
+|   - Beheerder                        |     v    |
 |   Functionaliteit: Dashboard         |          |
 |   - Bestverkopende producten         |     ?    |
 |   - Grootste klanten                 |     ?    |
 |   - Omzet                            |     ?    |
 |   Functionaliteit: Klantenbeheer     |          |
-|   - Klant verwijderen                |     âœ“    |
+|   - Klant verwijderen                |     v    |
 |   Functionaliteit: Productenbeheer   |     ?    |
 |   - Prijshistoriek                   |     ?    |
-|   - Product aanpassen                |     âœ“    |
-|   - Product toevoegen                |     âœ“  |
-|   - Product verwijderen              |     âœ“    |
-|   Sass (SCSS)                        |     âœ“    |
-|   Spelling gecontroleerd             |     âœ“    |
+|   - Product aanpassen                |     v    |
+|   - Product toevoegen                |     v  |
+|   - Product verwijderen              |     v    |
+|   Sass (SCSS)                        |     v    |
+|   Spelling gecontroleerd             |     v    |

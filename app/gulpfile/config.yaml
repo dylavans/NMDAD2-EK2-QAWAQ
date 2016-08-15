@@ -1,0 +1,58 @@
+# Directories
+dir:
+  dest     : &dirDest ./dist/
+  node     : ./node_modules/
+  src      : &dirSrc ./src/
+  templates:
+    src    : ./src/app/**/*.html
+    dest   : ./dist/html/
+  vendor   : ./dist/vendor/
+  images:
+    src    : ./src/app/img/**/*
+    dest   : ./dist/img/
+
+# Browsersync
+# @link https://browsersync.io/
+# @link https://www.npmjs.com/package/browser-sync"
+browserSync:
+  server:
+    baseDir: *dirDest
+    proxy: www.qawaq.local
+
+# gulp-concat
+# @link https://www.npmjs.com/package/gulp-concat
+concat:
+  newline: ;
+
+# gulp-ng-annotate
+# @link https://www.npmjs.com/package/gulp-ng-annotate
+# @link https://github.com/olov/ng-annotate
+ngAnnotate:
+  add          : true
+  single_quotes: true
+
+# gulp-sass
+# @link https://www.npmjs.com/package/gulp-sass
+# @link https://github.com/sass/node-sass
+sass:
+  includePaths: []
+  outputStyle: compressed
+
+# gulp-serve
+# @link https://www.npmjs.com/package/gulp-serve
+serve:
+  hostname: localhost
+  port    : 8080
+  root    : *dirDest
+
+# gulp-uglify
+# @link https://www.npmjs.com/package/gulp-uglify
+# @link https://github.com/mishoo/UglifyJS
+uglify:
+  mangle          : true
+  preserveComments: license
+
+# PhantomJS
+# @link http://phantomjs.org/
+# @link https://www.npmjs.com/package/phantomjs
+phantom:

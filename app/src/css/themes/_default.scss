@@ -1,0 +1,16 @@
+// Default Theme
+
+ui-view#main {
+  @extend %page-animation;
+}
+
+.artevelde-animate {
+  @extend %list-item-animation;
+}
+
+.logoqawaq {
+    width: 120px;
+    margin: auto;
+    padding: 10px;
+
+}

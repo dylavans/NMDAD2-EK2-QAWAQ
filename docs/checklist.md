@@ -21,9 +21,9 @@ Checklist
 
 | Presentatie                          | Aanwezig |
 |:-------------------------------------|:--------:|
-| PDF-bestand of html/css/js           |     ?    |
-| Bestand(en) op repository            |     ?    |
-| Spelling gecontroleerd               |     ?    |
+| PDF-bestand of html/css/js           |     v    |
+| Bestand(en) op repository            |     v    |
+| Spelling gecontroleerd               |     v    |
 
 | Productiedossier                     | Aanwezig |
 |:-------------------------------------|:--------:|
@@ -41,13 +41,13 @@ Checklist
 |  8.1 Functionaliteiten               |     v    |
 |  9.  Mobile Web App                  |     v    |
 |  9.1 Functionaliteiten               |     v    |
-|  9.2 Wireflow                        |     ?    |
-|  9.3 Screen Designs                  |     ?    |
+|  9.2 Wireflow                        |     -    |
+|  9.3 Screen Designs                  |     v    |
 | 10.  Backoffice                      |     v    |
 | 10.1 Functionaliteiten               |     v    |
-| 10.2 Sitemap                         |     ?    |
-| 10.3 Wireframes                      |     ?    |
-| 10.4 Screen Designs                  |     ?    |
+| 10.2 Sitemap                         |     -    |
+| 10.3 Wireframes                      |         |
+| 10.4 Screen Designs                  |     v    |
 
 | Timesheet Student                    | Aanwezig |
 |:-------------------------------------|:--------:|

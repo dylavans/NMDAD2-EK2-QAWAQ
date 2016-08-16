@@ -1,0 +1,28 @@
+1. Inhoud
+
+De afgedrukte poster moet de presentatie ondersteunen en een leek duidelijk maken wat het project is:
+
+Projectnaam en -logo
+Synopsis
+Het doel van de opdracht
+Het resultaat, ondersteund met schermafbeeldingen
+Gebruikte technologieën
+
+2. Niet vergeten
+
+Niet vergeten te vermelden:
+
+Voornaam en familienaam
+Opleidingsonderdeel: New Media Design & Development II
+Academiejaar: 2015-2016
+Opleiding: Bachelor in de grafische en digitale media
+Afstudeerrichting: Multimediaproductie
+Keuzeoptie: proDEV
+Opleidingsinstelling: Arteveldehogeschool
+Bijvoorbeeld in het Nederlands:
+
+John Doe, Jane Doe New Media Design & Development II, Academiejaar 2015-2016 Bachelor in de grafische en digitale media, Multimediaproductie (proDEV) Arteveldehogeschool
+
+Bijvoorbeeld in het Engels:
+
+John Doe, Jane Doe New Media Design & Development II, Academic Year 2015-2016 Bachelor of Graphical and Digital Media, Multimedia Production (proDEV) Artevelde University College Ghent

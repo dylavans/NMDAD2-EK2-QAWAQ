@@ -3,21 +3,21 @@ Checklist
 
 | Status   | Aanduiding |
 |:---------|:----------:|
-| Aanwezig |      âœ“     |
-| Afwezig  |      âœ—     |
+| Aanwezig |      v     |
+| Afwezig  |      ?     |
 
 | Academische Poster                   | Aanwezig |
 |:-------------------------------------|:--------:|
 | Afgedrukt op A2                      |     ?    |
 | PDF-bestand                          |     ?    |
-| Bestand op repository                |     âœ“  |
-| Spelling gecontroleerd               |     âœ“  |
+| Bestand op repository                |     ?    |
+| Spelling gecontroleerd               |     ?    |
 |--------------------------------------|----------|
-| 1. Projectnaam en -logo              |     âœ“  |
+| 1. Projectnaam en -logo              |     ?    |
 | 2. Synopsis                          |     ?    |
 | 3. Doel                              |     ?    |
 | 4. Resultaat                         |     ?    |
-| 5. TechnologieÃ«n                    |     ?    |
+| 5. TechnologieÃ«n                     |     ?    |
 
 | Presentatie                          | Aanwezig |
 |:-------------------------------------|:--------:|
@@ -27,115 +27,109 @@ Checklist
 
 | Productiedossier                     | Aanwezig |
 |:-------------------------------------|:--------:|
-| PDF-bestand                          |     âœ“  |
-| Bestand op repository                |     âœ“  |
+| PDF-bestand                          |     v    |
+| Bestand op repository                |     ?    |
 |--------------------------------------|----------|
-|  1.  Voorblad                        |     âœ“  |
-|  2.  Repository                      |     âœ   |
-|  3.  Briefing                        |     ?    |
+|  1.  Voorblad                        |     v    |
+|  2.  Repository                      |     v    |
+|  3.  Briefing                        |     v    |
 |  4.  Planning                        |     ?    |
-|  5.  Ideaboard                       |     ?    |
-|  6.  Moodboard                       |     ?    |
+|  5.  Ideaboard                       |     v    |
+|  6.  Moodboard                       |     v    |
 |  7.  3 Style Tiles                   |     ?    |
-|  8.  API                             |     âœ“  |
-|  8.1 Functionaliteiten               |     ?    |
-|  9.  Mobile Web App                  |     âœ   |
-|  9.1 Functionaliteiten               |     ?    |
+|  8.  API                             |     v    |
+|  8.1 Functionaliteiten               |     v    |
+|  9.  Mobile Web App                  |     v    |
+|  9.1 Functionaliteiten               |     v    |
 |  9.2 Wireflow                        |     ?    |
 |  9.3 Screen Designs                  |     ?    |
-| 10.  Backoffice                      |     âœ   |
-| 10.1 Functionaliteiten               |     ?    |
+| 10.  Backoffice                      |     v    |
+| 10.1 Functionaliteiten               |     v    |
 | 10.2 Sitemap                         |     ?    |
 | 10.3 Wireframes                      |     ?    |
 | 10.4 Screen Designs                  |     ?    |
 
-| Timesheet Student 1                  | Aanwezig |
+| Timesheet Student                    | Aanwezig |
 |:-------------------------------------|:--------:|
-| Excel-bestand                        |     âœ“  |
-| Bestand op repository                |     âœ“  |
-| Per dag ingevuld                     |     âœ“  |
-| Totaal berekend in uren              |     âœ“  |
+| Excel-bestand                        |     v    |
+| Bestand op repository                |     v    |
+| Per dag ingevuld                     |     x    |
+| Totaal berekend in uren              |     v    |
 
-| Timesheet Student 2                  | Aanwezig |
-|:-------------------------------------|:--------:|
-| Excel-bestand                        |     âœ“  |
-| Bestanden op repository              |     âœ   |
-| Per dag ingevuld                     |     âœ“  |
-| Totaal berekend in uren              |     âœ“  |
 
 | Werkstuk                             | Aanwezig |
 |:-------------------------------------|:--------:|
 | **Source Control Management**        |          |
-|   Commits met prefixen               |     ?    |
-|   Feature Branches met postfix       |     ?    |
+|   Commits met prefixen               |     v    |
+|   Feature Branches met postfix       |     x    |
 |--------------------------------------|----------|
-| **Werkstuk en technologieÃ«n**       |          |
+| **Werkstuk en technologieÃ«n**        |          |
 |  *Database*                          |          |
-|   Databasemodel (Reverse Engineer)   |     ?    |
+|   Databasemodel (Reverse Engineer)   |     v    |
 |  *Server-side*                       |          |
-|   Laravel 5.2                        |     ?    |
-|   Artisan Console Commands voor DB   |     ?    |
-|   Eloquent ORM                       |     ?    |
-|   Migrations                         |     ?    |
-|   MVC                                |     ?    |
-|   Seeding met Faker                  |     ?    |
+|   Laravel 5.2                        |     v    |
+|   Artisan Console Commands voor DB   |     v    |
+|   Eloquent ORM                       |     v    |
+|   Migrations                         |     v    |
+|   MVC                                |     v    |
+|   Seeding met Faker                  |     v    |
 |--------------------------------------|----------|
 |  *API*                               |          |
 |   CRUD                               |          |
-|   - Create                           |     ?    |
-|   - Read                             |     ?    |
-|   - Update                           |     ?    |
-|   - Delete                           |     ?    |
-|   PHPUnit-tests succesvol            |     ?    |
-|   RESTful                            |     ?    |
+|   - Create                           |     v    |
+|   - Read                             |     v    |
+|   - Update                           |     v    |
+|   - Delete                           |     v    |
+|   PHPUnit-tests succesvol            |     v    |
+|   RESTful                            |     v    |
 |--------------------------------------|----------|
 |  *Mobile Web App*                    |          |
-|   AngularJS 1.5                      |     ?    |
-|   Angular Material Design            |     ?    |
+|   AngularJS 1.5                      |     v    |
+|   Angular Material Design            |     v    |
 |   Automatisatie                      |          |
-|   - Bower                            |     ?    |
-|   - Gulp.js                          |     ?    |
+|   - Bower                            |     v    |
+|   - Gulp.js                          |     v    |
 |   Functionaliteit: Rollen            |          |
-|   - Bezoeker                         |     ?    |
-|   - Klant                            |     ?    |
+|   - Bezoeker                         |     v    |
+|   - Klant                            |     v    |
 |   Functionaliteit: Account           |          |
-|   - Accountbeheer                    |     ?    |
-|   - Bestellingen opvolgen            |     ?    |
+|   - Accountbeheer                    |     v    |
+|   - Bestellingen opvolgen            |     -    |
 |   - Historiek gekochte producten     |     ?    |
 |   Functionaliteit: Product           |          |
-|   - Categorie                        |     ?    |
+|   - Categorie                        |     -    |
 |   - Foto's                           |     ?    |
 |   - Korte beschrijving               |     ?    |
-|   - Naam                             |     ?    |
-|   - Prijs                            |     ?    |
-|   - Prijs: BTW-tarief                |     ?    |
-|   - Prijs: Korting of promotieprijs  |     ?    |
-|   - Productrating                    |     ?    |
-|   - Productspecificaties             |     ?    |
-|   Sass (SCSS)                        |     ?    |
-|   Spelling gecontroleerd             |     ?    |
+|   - Naam                             |     v    |
+|   - Prijs                            |     v    |
+|   - Prijs: BTW-tarief                |     -    |
+|   - Prijs: Korting of promotieprijs  |     -    |
+|   - Productrating                    |     x    |
+|   - Productspecificaties             |     v    |
+|   Sass (SCSS)                        |     v    |
+|   Spelling gecontroleerd             |     v    |
 |--------------------------------------|----------|
 |  *Backoffice*                        |          |
 |   Automatisatie                      |          |
-|   - Bower                            |     ?    |
-|   - Composer                         |     ?    |
-|   - Laravel Elixir                   |     ?    |
-|   Blade-sjablonen                    |     ?    |
-|   Bootstrap met Sass (SCSS)          |     ?    |
-|   Chartist.js                        |     ?    |
+|   - Bower                            |     v    |
+|   - Composer                         |     v    |
+|   - Laravel Elixir                   |     v    |
+|   Blade-sjablonen                    |     v    |
+|   Bootstrap met Sass (SCSS)          |     v    |
+|   Chartist.js                        |     x    |
 |   Functionaliteit: Rollen            |          |
-|   - Bezoeker                         |     ?    |
-|   - Beheerder                        |     ?    |
+|   - Bezoeker                         |     v    |
+|   - Beheerder                        |     v    |
 |   Functionaliteit: Dashboard         |          |
-|   - Bestverkopende producten         |     ?    |
-|   - Grootste klanten                 |     ?    |
-|   - Omzet                            |     ?    |
+|   - Bestverkopende producten         |     x    |
+|   - Grootste klanten                 |     x    |
+|   - Omzet                            |     x    |
 |   Functionaliteit: Klantenbeheer     |          |
-|   - Klant verwijderen                |     ?    |
-|   Functionaliteit: Productenbeheer   |     ?    |
-|   - Prijshistoriek                   |     ?    |
-|   - Product aanpassen                |     ?    |
-|   - Product toevoegen                |     ?    |
-|   - Product verwijderen              |     ?    |
-|   Sass (SCSS)                        |     ?    |
-|   Spelling gecontroleerd             |     ?    |
+|   - Klant verwijderen                |     v    |
+|   Functionaliteit: Productenbeheer   |         |
+|   - Prijshistoriek                   |     x    |
+|   - Product aanpassen                |     v    |
+|   - Product toevoegen                |     v  |
+|   - Product verwijderen              |     v    |
+|   Sass (SCSS)                        |     v    |
+|   Spelling gecontroleerd             |     v    |

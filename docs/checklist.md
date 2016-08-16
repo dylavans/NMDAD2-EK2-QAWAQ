@@ -9,14 +9,14 @@ Checklist
 | Academische Poster                   | Aanwezig |
 |:-------------------------------------|:--------:|
 | Afgedrukt op A2                      |     ?    |
-| PDF-bestand                          |     ?    |
-| Bestand op repository                |     ?    |
+| PDF-bestand                          |     v    |
+| Bestand op repository                |     v    |
 | Spelling gecontroleerd               |     v    |
 |--------------------------------------|----------|
 | 1. Projectnaam en -logo              |     v    |
-| 2. Synopsis                          |     ?    |
-| 3. Doel                              |     ?    |
-| 4. Resultaat                         |     ?    |
+| 2. Synopsis                          |     v    |
+| 3. Doel                              |     v    |
+| 4. Resultaat                         |     v    |
 | 5. TechnologieÃ«n                     |     v    |
 
 | Presentatie                          | Aanwezig |

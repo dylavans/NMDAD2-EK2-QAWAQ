@@ -11,13 +11,13 @@ Checklist
 | Afgedrukt op A2                      |     ?    |
 | PDF-bestand                          |     ?    |
 | Bestand op repository                |     ?    |
-| Spelling gecontroleerd               |     ?    |
+| Spelling gecontroleerd               |     v    |
 |--------------------------------------|----------|
-| 1. Projectnaam en -logo              |     ?    |
+| 1. Projectnaam en -logo              |     v    |
 | 2. Synopsis                          |     ?    |
 | 3. Doel                              |     ?    |
 | 4. Resultaat                         |     ?    |
-| 5. TechnologieÃ«n                     |     ?    |
+| 5. TechnologieÃ«n                     |     v    |
 
 | Presentatie                          | Aanwezig |
 |:-------------------------------------|:--------:|
@@ -28,7 +28,7 @@ Checklist
 | Productiedossier                     | Aanwezig |
 |:-------------------------------------|:--------:|
 | PDF-bestand                          |     v    |
-| Bestand op repository                |     ?    |
+| Bestand op repository                |     v    |
 |--------------------------------------|----------|
 |  1.  Voorblad                        |     v    |
 |  2.  Repository                      |     v    |
